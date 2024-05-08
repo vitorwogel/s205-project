@@ -1,0 +1,33 @@
+header{
+    display: block;
+    width: 100%;
+}
+#perfil{
+    float: right;
+    width: 60px;
+    height: 60px;
+}
+#menu{
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#welcome{
+    display: block;
+    width: 80%;
+}
+#recent_box{
+    display: block;
+    width: 80%;
+    margin-top: 20px;
+}
+#inner_recent_box{
+    display: block;
+    width: 80%;
+    margin-top: 20px;
+}
