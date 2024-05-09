@@ -1,6 +1,12 @@
-header{
-    display: block;
+header, main{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#head .container{
+    width: 80%;
 }
 #perfil{
     float: right;
@@ -12,21 +18,16 @@ header{
     width: 60px;
     height: 60px;
 }
-main{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
 #welcome{
     display: block;
     width: 80%;
 }
-#recent_box{
+#recent_box, #avisos_box{
     display: block;
     width: 80%;
     margin-top: 20px;
 }
-#inner_recent_box{
+#inner_recent_box, #inner_avisos_box{
     display: block;
     width: 80%;
     margin-top: 20px;
