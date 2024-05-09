@@ -5,15 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>App Inatel</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header id="head">
         <div class="container">
             <div id="menu">
-                <img src="images/menu.png" alt='Menu' width="32px"/>
+                <a href="#">
+                    <img src="icons/menu.png" alt='Menu' width="32px"/>
+                </a>
             </div>
 		    <div id="perfil">
-                <img src="images/user.png" alt='Usuário' width="32px"/>
+                <a href="#">
+                    <img src="icons/user.png" alt='Usuário' width="32px"/>
+                </a>
             </div>
         </div>
     </header>
@@ -24,25 +31,33 @@
         </div>
         <div id="recent_box">
             <div id="recent">Recent</div>
-            <div id="inner_recent_box">
-                <div id="inner_recent_text">Vagas de Emprego</div>
-                <div id="inner_recent_icon">ICONE</div>
-            </div>
-            <div id="inner_recent_box">
-                <div id="inner_recent_text">Vagas de Estágio</div>
-                <div id="inner_recent_icon">ICONE</div>
-            </div>
+            <a href="jobs.html">
+                <div id="inner_recent_box">
+                    <div id="inner_recent_text">Vagas de Emprego</div>
+                    <div id="inner_recent_icon"><img src="icons/arrow.png" alt='Seta' width="32px"/></div>
+                </div>
+            </a>
+            <a href="#">
+                <div id="inner_recent_box">
+                    <div id="inner_recent_text">Vagas de Estágio</div>
+                    <div id="inner_recent_icon"><img src="icons/arrow.png" alt='Seta' width="32px"/></div>
+                </div>
+            </a>
         </div>
         <div id="avisos_box">
             <div id="avisos">Avisos</div>
-            <div id="inner_avisos_box">
-                <div id="inner_avisos_text">Atenção, seu boleto vence amanhã!</div>
-                <div id="inner_avisos_icon">ICONE</div>
-            </div>
-            <div id="inner_avisos_box">
-                <div id="inner_avisos_text">Inscrições abertas para a semana da computação!</div>
-                <div id="inner_avisos_icon">ICONE</div>
-            </div>
+            <a href="">
+                <div id="inner_avisos_box">
+                    <div id="inner_avisos_text">Atenção, seu boleto vence amanhã!</div>
+                    <div id="inner_avisos_icon"><img src="icons/warning.png" alt='Perigo' width="32px"/></div>
+                </div>
+            </a>
+            <a href="#">
+                <div id="inner_avisos_box">
+                    <div id="inner_avisos_text">Inscrições abertas para a semana da computação!</div>
+                    <div id="inner_avisos_icon"><img src="icons/computer.png" alt='Computador' width="32px"/></div>
+                </div>
+            </a>
         </div>
 	</main>
 
