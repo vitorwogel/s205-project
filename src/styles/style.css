@@ -2,8 +2,11 @@
     --nav-color: #0455BF;
     --bg-color: #F2F2F2;
     --bt-color: #0487D9;
+    --md-sys-color-primary: #006A6A;
+    --md-sys-color-on-primary: #FFFFFF;
+    --md-sys-color-primary-container: #6FF7F6;
+    --md-sys-color-on-primary-container: #002020;
 }
-
 * {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -169,3 +172,26 @@ h3{
     margin: 20px;
     /* vertical-align: top; */
   }
+
+#form{
+    display: none;
+    position: fixed;
+    z-index: 5;
+    background: white;
+    padding: 40px;
+    margin: 20%;
+}
+
+#form-icon-close{
+    float: right;
+    top: 0;
+}
+
+#form-id{
+    display: flex;
+    flex-direction: column; 
+}
+
+#form-id input{
+    margin-bottom: 10px;
+}
